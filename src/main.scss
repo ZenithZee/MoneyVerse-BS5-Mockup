@@ -1,0 +1,46 @@
+$body-bg: #221a2d;
+$primary: #9f52ff40;
+$gradient: linear-gradient(
+  90deg,
+  rgba(115, 0, 255, 1) 0%,
+  rgba(255, 255, 255, 1) 60%
+);
+
+h1,
+li {
+  font-family: "Darker Grotesque", sans-serif;
+}
+p {
+  font-family: "Inter", sans-serif;
+}
+section {
+  height: 100vh;
+}
+
+.footer {
+  height: 50vh;
+}
+.section--1 {
+  height: 50vh;
+}
+
+.navbar {
+  background-color: transparent;
+  color: white;
+  transition: 0.5s ease;
+}
+.navbar-brand {
+  margin-right: 2em;
+}
+.navbar-nav .nav-link {
+  color: white;
+  padding-right: 1.5rem;
+}
+
+.navbar-scroll {
+  background-color: black;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.5s ease;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
